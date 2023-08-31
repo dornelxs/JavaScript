@@ -1,0 +1,68 @@
+/* Estilos gerais para o body */
+body {
+    background-color: #383737;
+    display: flex;
+    flex-direction: column; /* Alinhar os itens um abaixo do outro */
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    height: 100vh; /* Tornar o body do tamanho da janela para centralizar verticalmente */
+    margin: 0; /* Remover margens padrão */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; /* Alterar a cor do texto para branco */
+    text-align: center; /* Centralizar o texto */
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Adicione um fundo semi-transparente para destacar o formulário */
+    padding: 20px;
+    border-radius: 8px; /* Arredondar as bordas do formulário */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adicionar uma sombra suave */
+    text-align: left; /* Alinhar o texto à esquerda dentro do formulário */
+    width: 300px;
+    height: 150px;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"] {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 10px; /* Espaço entre os campos de entrada */
+    width: 50%; /* Preencha a largura do formulário */
+}
+
+/* Estilos para os rótulos */
+label {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Estilos para o botão de envio */
+/* Estilos para o contêiner do botão e do resultado */
+#botao-e-resultado {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para o botão */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 25px; /* Adiciona um espaço à direita do botão */
+}
+
+/* Estilos para o parágrafo de resultado */
+#resultado {
+    background-color: rgb(9, 195, 9);
+    color: #000000;
+    font-size: 16px;
+    padding: 7px 7px;
+    border-radius: 10px;
+    vertical-align: middle; /* Alinha verticalmente com o botão */
+    margin-top: 10px;
+}
+
