@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tabela</title>
+</head>
+<body>
+    <div class="tabela">
+        <h1 class="titulo">Tabela de compra</h1>
+        
+        <table class="tb1" border="1">
+            <tr>
+                <th>Nome do item: </th>
+                <th>Valor:</th>
+            </tr>
+            <tr>
+                <td>Maçã</td>
+                <td>R$ 2,50</td>    
+            </tr>
+            <tr>
+                <td>Uva (cacho com 12 und)</td>
+                <td>R$ 5,80</td>
+            </tr>
+            <tr>
+                <td>Abacate </td>
+                <td>R$ 7,60</td>
+            </tr>
+            <tr>
+                <td>Morango (pacote com 6 und)</td>
+                <td>R$ 12,50</td>
+            </tr>
+            <tr>
+                <td>Abacaxi </td>
+                <td>R$ 8,00</td>
+            </tr>
+        </table>
+
+        <table class="tb2" border="1">
+            <tr>
+                <th>Nome do item: </th>
+                <th>Quantidade: </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" nome="item1" id="item1" placeholder="Item" required>   
+                </td>
+                <td>
+                    <input type="text" name="valor1" id="valor1" placeholder="Quantidade" required>
+                </td>
+            </tr>
+        </table>
+
+        <button id="comprarBtn"> Comprar </button>
+        <p id="resultado"></p>
+        
+    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>
