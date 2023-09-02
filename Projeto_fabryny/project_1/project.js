@@ -10,7 +10,7 @@ comprarBtn.addEventListener('click', function(event) {
     const item1 = item1Input.value;
     let valor = 0;
 
-    const maca = 'Maça' 
+    const maca = 'Maçã' 
     const uva = 'Uva' 
     const abacate = 'Abacate'
     const morango = 'Morango'
